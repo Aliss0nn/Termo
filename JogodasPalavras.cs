@@ -13,7 +13,7 @@ namespace Termo
         private char[] letrasDescobertas;
         private int tentativas;
         public int contador;
-        internal string palavraChutada;
+        public string palavraChutada;
 
        
         public JogodasPalavras()

@@ -180,17 +180,17 @@ namespace Termo
                     continue;
             }
 
-            if (VerificarVitoria(palavra))
+            if (JogadorVenceu(palavra))
                 return;
 
-            if (VerificarDerrota())
+            if (JogadorPerdeu())
                 return;
 
             inicial += 5;
             final += 5;
         }
 
-        private bool VerificarDerrota()
+        private bool JogadorPerdeu()
         {
             if (jogo.contador > 25)
             {
@@ -199,13 +199,13 @@ namespace Termo
                 this.inicial = 1;
                 this.final = 5;
 
-                LimparQuadro();
+                Limpar();
                 return true;
             }
             return false;
         }
 
-        private bool VerificarVitoria(string palavra)
+        private bool JogadorVenceu(string palavra)
         {
             if (palavraChutada.ToLower() == palavra.ToLower())
             {
@@ -214,14 +214,14 @@ namespace Termo
                 this.inicial = 1;
                 this.final = 5;
 
-                LimparQuadro();
+                Limpar();
                 return true;
             }
 
             return false;
         }
 
-        private void LimparQuadro()
+        private void Limpar()
         {
             foreach (TextBox textBox in pnBotoes.Controls.OfType<TextBox>())
             {
