@@ -8,7 +8,7 @@ namespace Termo
         private int palavra;
         private int letra;
         private Button[] botoesDigitados;
-        
+
 
         public Form1()
         {
@@ -44,7 +44,7 @@ namespace Termo
 
         private void EscreverNaCaixa(string letra)
         {
-            foreach (TextBox textBox in pnBotoes.Controls.OfType<TextBox>().OrderBy(tb => tb.Tag))
+            foreach (TextBox textBox in panel.Controls.OfType<TextBox>().OrderBy(tb => tb.Tag))
             {
 
                 string strTag = textBox.Tag.ToString();
@@ -100,7 +100,7 @@ namespace Termo
 
         private void btnApagar_Click(object sender, EventArgs e)
         {
-            foreach (TextBox textBox in pnBotoes.Controls.OfType<TextBox>().OrderBy(tb => tb.Tag))
+            foreach (TextBox textBox in panel.Controls.OfType<TextBox>().OrderBy(tb => tb.Tag))
             {
 
 
@@ -131,7 +131,7 @@ namespace Termo
 
 
 
-            foreach (TextBox textBox in pnBotoes.Controls.OfType<TextBox>())
+            foreach (TextBox textBox in panel.Controls.OfType<TextBox>())
             {
                 string strTag = textBox.Tag.ToString();
                 int tag = Convert.ToInt32(strTag);
@@ -195,7 +195,7 @@ namespace Termo
             if (jogo.contador > 25)
             {
                 MessageBox.Show($"Vc perdeu a palavra era: {jogo}");
-                this.jogo = new JogodasPalavras(); 
+                this.jogo = new JogodasPalavras();
                 this.inicial = 1;
                 this.final = 5;
 
@@ -223,7 +223,7 @@ namespace Termo
 
         private void Limpar()
         {
-            foreach (TextBox textBox in pnBotoes.Controls.OfType<TextBox>())
+            foreach (TextBox textBox in panel.Controls.OfType<TextBox>())
             {
                 textBox.Text = "";
                 textBox.WordWrap = true;
@@ -236,7 +236,7 @@ namespace Termo
             string palavra = "";
             int ponto = inicial;
 
-            foreach (TextBox textBox in pnBotoes.Controls.OfType<TextBox>().OrderBy(tb => tb.Tag))
+            foreach (TextBox textBox in panel.Controls.OfType<TextBox>().OrderBy(tb => tb.Tag))
             {
                 string strTag = textBox.Tag.ToString();
                 int tag = Convert.ToInt32(strTag);

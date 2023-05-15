@@ -29,31 +29,6 @@
         private void InitializeComponent()
         {
             textBox10 = new TextBox();
-            textBox5 = new TextBox();
-            textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            textBox11 = new TextBox();
-            textBox12 = new TextBox();
-            textBox13 = new TextBox();
-            textBox14 = new TextBox();
-            textBox15 = new TextBox();
-            textBox16 = new TextBox();
-            textBox17 = new TextBox();
-            textBox18 = new TextBox();
-            textBox19 = new TextBox();
-            textBox20 = new TextBox();
-            textBox21 = new TextBox();
-            textBox22 = new TextBox();
-            textBox23 = new TextBox();
-            textBox24 = new TextBox();
-            textBox25 = new TextBox();
-            textBox26 = new TextBox();
             btnApagar = new Button();
             button29 = new Button();
             pnBotoes = new Panel();
@@ -83,7 +58,34 @@
             button52 = new Button();
             button53 = new Button();
             button54 = new Button();
+            panel = new Panel();
+            textBox22 = new TextBox();
+            textBox23 = new TextBox();
+            textBox24 = new TextBox();
+            textBox25 = new TextBox();
+            textBox26 = new TextBox();
+            textBox17 = new TextBox();
+            textBox18 = new TextBox();
+            textBox19 = new TextBox();
+            textBox20 = new TextBox();
+            textBox21 = new TextBox();
+            textBox12 = new TextBox();
+            textBox13 = new TextBox();
+            textBox14 = new TextBox();
+            textBox15 = new TextBox();
+            textBox16 = new TextBox();
+            textBox6 = new TextBox();
+            textBox7 = new TextBox();
+            textBox8 = new TextBox();
+            textBox9 = new TextBox();
+            textBox11 = new TextBox();
+            textBox5 = new TextBox();
+            textBox4 = new TextBox();
+            textBox3 = new TextBox();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
             pnBotoes.SuspendLayout();
+            panel.SuspendLayout();
             SuspendLayout();
             // 
             // textBox10
@@ -96,281 +98,6 @@
             textBox10.Size = new Size(211, 43);
             textBox10.TabIndex = 27;
             textBox10.Text = "        TERMO\r\n      \r\n";
-            // 
-            // textBox5
-            // 
-            textBox5.BackColor = Color.DimGray;
-            textBox5.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox5.ForeColor = Color.DimGray;
-            textBox5.Location = new Point(603, 86);
-            textBox5.Multiline = true;
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(59, 53);
-            textBox5.TabIndex = 32;
-            // 
-            // textBox4
-            // 
-            textBox4.BackColor = Color.DimGray;
-            textBox4.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox4.ForeColor = Color.DimGray;
-            textBox4.Location = new Point(538, 86);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(59, 53);
-            textBox4.TabIndex = 31;
-            // 
-            // textBox3
-            // 
-            textBox3.BackColor = Color.DimGray;
-            textBox3.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox3.ForeColor = Color.DimGray;
-            textBox3.Location = new Point(469, 86);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(59, 53);
-            textBox3.TabIndex = 30;
-            // 
-            // textBox2
-            // 
-            textBox2.BackColor = Color.DimGray;
-            textBox2.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.ForeColor = Color.DimGray;
-            textBox2.Location = new Point(397, 86);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(59, 53);
-            textBox2.TabIndex = 29;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = Color.DimGray;
-            textBox1.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.ForeColor = Color.DimGray;
-            textBox1.Location = new Point(322, 86);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(59, 53);
-            textBox1.TabIndex = 28;
-            // 
-            // textBox6
-            // 
-            textBox6.BackColor = Color.DimGray;
-            textBox6.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox6.ForeColor = Color.DimGray;
-            textBox6.Location = new Point(603, 155);
-            textBox6.Multiline = true;
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(59, 53);
-            textBox6.TabIndex = 37;
-            // 
-            // textBox7
-            // 
-            textBox7.BackColor = Color.DimGray;
-            textBox7.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox7.ForeColor = Color.DimGray;
-            textBox7.Location = new Point(538, 155);
-            textBox7.Multiline = true;
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(59, 53);
-            textBox7.TabIndex = 36;
-            // 
-            // textBox8
-            // 
-            textBox8.BackColor = Color.DimGray;
-            textBox8.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox8.ForeColor = Color.DimGray;
-            textBox8.Location = new Point(469, 155);
-            textBox8.Multiline = true;
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(59, 53);
-            textBox8.TabIndex = 35;
-            // 
-            // textBox9
-            // 
-            textBox9.BackColor = Color.DimGray;
-            textBox9.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox9.ForeColor = Color.DimGray;
-            textBox9.Location = new Point(397, 155);
-            textBox9.Multiline = true;
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(59, 53);
-            textBox9.TabIndex = 34;
-            // 
-            // textBox11
-            // 
-            textBox11.BackColor = Color.DimGray;
-            textBox11.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox11.ForeColor = Color.DimGray;
-            textBox11.Location = new Point(322, 155);
-            textBox11.Multiline = true;
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(59, 53);
-            textBox11.TabIndex = 33;
-            // 
-            // textBox12
-            // 
-            textBox12.BackColor = Color.DimGray;
-            textBox12.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox12.ForeColor = Color.DimGray;
-            textBox12.Location = new Point(603, 224);
-            textBox12.Multiline = true;
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(59, 53);
-            textBox12.TabIndex = 42;
-            // 
-            // textBox13
-            // 
-            textBox13.BackColor = Color.DimGray;
-            textBox13.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox13.ForeColor = Color.DimGray;
-            textBox13.Location = new Point(538, 224);
-            textBox13.Multiline = true;
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(59, 53);
-            textBox13.TabIndex = 41;
-            // 
-            // textBox14
-            // 
-            textBox14.BackColor = Color.DimGray;
-            textBox14.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox14.ForeColor = Color.DimGray;
-            textBox14.Location = new Point(469, 224);
-            textBox14.Multiline = true;
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(59, 53);
-            textBox14.TabIndex = 40;
-            // 
-            // textBox15
-            // 
-            textBox15.BackColor = Color.DimGray;
-            textBox15.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox15.ForeColor = Color.DimGray;
-            textBox15.Location = new Point(397, 224);
-            textBox15.Multiline = true;
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(59, 53);
-            textBox15.TabIndex = 39;
-            // 
-            // textBox16
-            // 
-            textBox16.BackColor = Color.DimGray;
-            textBox16.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox16.ForeColor = Color.DimGray;
-            textBox16.Location = new Point(322, 224);
-            textBox16.Multiline = true;
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(59, 53);
-            textBox16.TabIndex = 38;
-            // 
-            // textBox17
-            // 
-            textBox17.BackColor = Color.DimGray;
-            textBox17.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox17.ForeColor = Color.DimGray;
-            textBox17.Location = new Point(603, 283);
-            textBox17.Multiline = true;
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(59, 53);
-            textBox17.TabIndex = 47;
-            // 
-            // textBox18
-            // 
-            textBox18.BackColor = Color.DimGray;
-            textBox18.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox18.ForeColor = Color.DimGray;
-            textBox18.Location = new Point(538, 283);
-            textBox18.Multiline = true;
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(59, 53);
-            textBox18.TabIndex = 46;
-            // 
-            // textBox19
-            // 
-            textBox19.BackColor = Color.DimGray;
-            textBox19.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox19.ForeColor = Color.DimGray;
-            textBox19.Location = new Point(469, 283);
-            textBox19.Multiline = true;
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(59, 53);
-            textBox19.TabIndex = 45;
-            // 
-            // textBox20
-            // 
-            textBox20.BackColor = Color.DimGray;
-            textBox20.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox20.ForeColor = Color.DimGray;
-            textBox20.Location = new Point(397, 283);
-            textBox20.Multiline = true;
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(59, 53);
-            textBox20.TabIndex = 44;
-            // 
-            // textBox21
-            // 
-            textBox21.BackColor = Color.DimGray;
-            textBox21.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox21.ForeColor = Color.DimGray;
-            textBox21.Location = new Point(322, 283);
-            textBox21.Multiline = true;
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(59, 53);
-            textBox21.TabIndex = 43;
-            // 
-            // textBox22
-            // 
-            textBox22.BackColor = Color.DimGray;
-            textBox22.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox22.ForeColor = Color.DimGray;
-            textBox22.Location = new Point(603, 342);
-            textBox22.Multiline = true;
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(59, 53);
-            textBox22.TabIndex = 52;
-            // 
-            // textBox23
-            // 
-            textBox23.BackColor = Color.DimGray;
-            textBox23.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox23.ForeColor = Color.DimGray;
-            textBox23.Location = new Point(538, 342);
-            textBox23.Multiline = true;
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(59, 53);
-            textBox23.TabIndex = 51;
-            // 
-            // textBox24
-            // 
-            textBox24.BackColor = Color.DimGray;
-            textBox24.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox24.ForeColor = Color.DimGray;
-            textBox24.Location = new Point(469, 342);
-            textBox24.Multiline = true;
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(59, 53);
-            textBox24.TabIndex = 50;
-            // 
-            // textBox25
-            // 
-            textBox25.BackColor = Color.DimGray;
-            textBox25.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox25.ForeColor = Color.DimGray;
-            textBox25.Location = new Point(397, 342);
-            textBox25.Multiline = true;
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(59, 53);
-            textBox25.TabIndex = 49;
-            // 
-            // textBox26
-            // 
-            textBox26.BackColor = Color.DimGray;
-            textBox26.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox26.ForeColor = Color.DimGray;
-            textBox26.Location = new Point(320, 342);
-            textBox26.Multiline = true;
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(59, 53);
-            textBox26.TabIndex = 48;
             // 
             // btnApagar
             // 
@@ -716,6 +443,314 @@
             button54.Text = "Q";
             button54.UseVisualStyleBackColor = false;
             // 
+            // panel
+            // 
+            panel.BackColor = Color.Transparent;
+            panel.Controls.Add(textBox22);
+            panel.Controls.Add(textBox23);
+            panel.Controls.Add(textBox24);
+            panel.Controls.Add(textBox25);
+            panel.Controls.Add(textBox26);
+            panel.Controls.Add(textBox17);
+            panel.Controls.Add(textBox18);
+            panel.Controls.Add(textBox19);
+            panel.Controls.Add(textBox20);
+            panel.Controls.Add(textBox21);
+            panel.Controls.Add(textBox12);
+            panel.Controls.Add(textBox13);
+            panel.Controls.Add(textBox14);
+            panel.Controls.Add(textBox15);
+            panel.Controls.Add(textBox16);
+            panel.Controls.Add(textBox6);
+            panel.Controls.Add(textBox7);
+            panel.Controls.Add(textBox8);
+            panel.Controls.Add(textBox9);
+            panel.Controls.Add(textBox11);
+            panel.Controls.Add(textBox5);
+            panel.Controls.Add(textBox4);
+            panel.Controls.Add(textBox3);
+            panel.Controls.Add(textBox2);
+            panel.Controls.Add(textBox1);
+            panel.Location = new Point(236, 89);
+            panel.Name = "panel";
+            panel.Size = new Size(530, 320);
+            panel.TabIndex = 80;
+            // 
+            // textBox22
+            // 
+            textBox22.BackColor = Color.DimGray;
+            textBox22.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox22.ForeColor = Color.DimGray;
+            textBox22.Location = new Point(377, 262);
+            textBox22.Multiline = true;
+            textBox22.Name = "textBox22";
+            textBox22.Size = new Size(59, 53);
+            textBox22.TabIndex = 77;
+            // 
+            // textBox23
+            // 
+            textBox23.BackColor = Color.DimGray;
+            textBox23.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox23.ForeColor = Color.DimGray;
+            textBox23.Location = new Point(312, 262);
+            textBox23.Multiline = true;
+            textBox23.Name = "textBox23";
+            textBox23.Size = new Size(59, 53);
+            textBox23.TabIndex = 76;
+            // 
+            // textBox24
+            // 
+            textBox24.BackColor = Color.DimGray;
+            textBox24.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox24.ForeColor = Color.DimGray;
+            textBox24.Location = new Point(243, 262);
+            textBox24.Multiline = true;
+            textBox24.Name = "textBox24";
+            textBox24.Size = new Size(59, 53);
+            textBox24.TabIndex = 75;
+            // 
+            // textBox25
+            // 
+            textBox25.BackColor = Color.DimGray;
+            textBox25.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox25.ForeColor = Color.DimGray;
+            textBox25.Location = new Point(171, 262);
+            textBox25.Multiline = true;
+            textBox25.Name = "textBox25";
+            textBox25.Size = new Size(59, 53);
+            textBox25.TabIndex = 74;
+            // 
+            // textBox26
+            // 
+            textBox26.BackColor = Color.DimGray;
+            textBox26.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox26.ForeColor = Color.DimGray;
+            textBox26.Location = new Point(94, 262);
+            textBox26.Multiline = true;
+            textBox26.Name = "textBox26";
+            textBox26.Size = new Size(59, 53);
+            textBox26.TabIndex = 73;
+            // 
+            // textBox17
+            // 
+            textBox17.BackColor = Color.DimGray;
+            textBox17.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox17.ForeColor = Color.DimGray;
+            textBox17.Location = new Point(377, 203);
+            textBox17.Multiline = true;
+            textBox17.Name = "textBox17";
+            textBox17.Size = new Size(59, 53);
+            textBox17.TabIndex = 72;
+            // 
+            // textBox18
+            // 
+            textBox18.BackColor = Color.DimGray;
+            textBox18.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox18.ForeColor = Color.DimGray;
+            textBox18.Location = new Point(312, 203);
+            textBox18.Multiline = true;
+            textBox18.Name = "textBox18";
+            textBox18.Size = new Size(59, 53);
+            textBox18.TabIndex = 71;
+            // 
+            // textBox19
+            // 
+            textBox19.BackColor = Color.DimGray;
+            textBox19.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox19.ForeColor = Color.DimGray;
+            textBox19.Location = new Point(243, 203);
+            textBox19.Multiline = true;
+            textBox19.Name = "textBox19";
+            textBox19.Size = new Size(59, 53);
+            textBox19.TabIndex = 70;
+            // 
+            // textBox20
+            // 
+            textBox20.BackColor = Color.DimGray;
+            textBox20.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox20.ForeColor = Color.DimGray;
+            textBox20.Location = new Point(171, 203);
+            textBox20.Multiline = true;
+            textBox20.Name = "textBox20";
+            textBox20.Size = new Size(59, 53);
+            textBox20.TabIndex = 69;
+            // 
+            // textBox21
+            // 
+            textBox21.BackColor = Color.DimGray;
+            textBox21.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox21.ForeColor = Color.DimGray;
+            textBox21.Location = new Point(96, 203);
+            textBox21.Multiline = true;
+            textBox21.Name = "textBox21";
+            textBox21.Size = new Size(59, 53);
+            textBox21.TabIndex = 68;
+            // 
+            // textBox12
+            // 
+            textBox12.BackColor = Color.DimGray;
+            textBox12.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox12.ForeColor = Color.DimGray;
+            textBox12.Location = new Point(377, 144);
+            textBox12.Multiline = true;
+            textBox12.Name = "textBox12";
+            textBox12.Size = new Size(59, 53);
+            textBox12.TabIndex = 67;
+            // 
+            // textBox13
+            // 
+            textBox13.BackColor = Color.DimGray;
+            textBox13.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox13.ForeColor = Color.DimGray;
+            textBox13.Location = new Point(312, 144);
+            textBox13.Multiline = true;
+            textBox13.Name = "textBox13";
+            textBox13.Size = new Size(59, 53);
+            textBox13.TabIndex = 66;
+            // 
+            // textBox14
+            // 
+            textBox14.BackColor = Color.DimGray;
+            textBox14.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox14.ForeColor = Color.DimGray;
+            textBox14.Location = new Point(243, 144);
+            textBox14.Multiline = true;
+            textBox14.Name = "textBox14";
+            textBox14.Size = new Size(59, 53);
+            textBox14.TabIndex = 65;
+            // 
+            // textBox15
+            // 
+            textBox15.BackColor = Color.DimGray;
+            textBox15.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox15.ForeColor = Color.DimGray;
+            textBox15.Location = new Point(171, 144);
+            textBox15.Multiline = true;
+            textBox15.Name = "textBox15";
+            textBox15.Size = new Size(59, 53);
+            textBox15.TabIndex = 64;
+            // 
+            // textBox16
+            // 
+            textBox16.BackColor = Color.DimGray;
+            textBox16.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox16.ForeColor = Color.DimGray;
+            textBox16.Location = new Point(96, 144);
+            textBox16.Multiline = true;
+            textBox16.Name = "textBox16";
+            textBox16.Size = new Size(59, 53);
+            textBox16.TabIndex = 63;
+            // 
+            // textBox6
+            // 
+            textBox6.BackColor = Color.DimGray;
+            textBox6.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox6.ForeColor = Color.DimGray;
+            textBox6.Location = new Point(377, 75);
+            textBox6.Multiline = true;
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(59, 53);
+            textBox6.TabIndex = 62;
+            // 
+            // textBox7
+            // 
+            textBox7.BackColor = Color.DimGray;
+            textBox7.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox7.ForeColor = Color.DimGray;
+            textBox7.Location = new Point(312, 75);
+            textBox7.Multiline = true;
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(59, 53);
+            textBox7.TabIndex = 61;
+            // 
+            // textBox8
+            // 
+            textBox8.BackColor = Color.DimGray;
+            textBox8.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox8.ForeColor = Color.DimGray;
+            textBox8.Location = new Point(243, 75);
+            textBox8.Multiline = true;
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(59, 53);
+            textBox8.TabIndex = 60;
+            // 
+            // textBox9
+            // 
+            textBox9.BackColor = Color.DimGray;
+            textBox9.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox9.ForeColor = Color.DimGray;
+            textBox9.Location = new Point(171, 75);
+            textBox9.Multiline = true;
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(59, 53);
+            textBox9.TabIndex = 59;
+            // 
+            // textBox11
+            // 
+            textBox11.BackColor = Color.DimGray;
+            textBox11.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox11.ForeColor = Color.DimGray;
+            textBox11.Location = new Point(96, 75);
+            textBox11.Multiline = true;
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(59, 53);
+            textBox11.TabIndex = 58;
+            // 
+            // textBox5
+            // 
+            textBox5.BackColor = Color.DimGray;
+            textBox5.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox5.ForeColor = Color.DimGray;
+            textBox5.Location = new Point(377, 6);
+            textBox5.Multiline = true;
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(59, 53);
+            textBox5.TabIndex = 57;
+            // 
+            // textBox4
+            // 
+            textBox4.BackColor = Color.DimGray;
+            textBox4.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox4.ForeColor = Color.DimGray;
+            textBox4.Location = new Point(312, 6);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(59, 53);
+            textBox4.TabIndex = 56;
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = Color.DimGray;
+            textBox3.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox3.ForeColor = Color.DimGray;
+            textBox3.Location = new Point(243, 6);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(59, 53);
+            textBox3.TabIndex = 55;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = Color.DimGray;
+            textBox2.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox2.ForeColor = Color.DimGray;
+            textBox2.Location = new Point(171, 6);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(59, 53);
+            textBox2.TabIndex = 54;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.DimGray;
+            textBox1.Font = new Font("Segoe UI", 41F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.ForeColor = Color.DimGray;
+            textBox1.Location = new Point(96, 6);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(59, 53);
+            textBox1.TabIndex = 53;
+            // 
             // Form1
             // 
             AccessibleRole = AccessibleRole.Caret;
@@ -723,69 +758,22 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.RosyBrown;
             ClientSize = new Size(1069, 644);
+            Controls.Add(panel);
             Controls.Add(pnBotoes);
-            Controls.Add(textBox22);
-            Controls.Add(textBox23);
-            Controls.Add(textBox24);
-            Controls.Add(textBox25);
-            Controls.Add(textBox26);
-            Controls.Add(textBox17);
-            Controls.Add(textBox18);
-            Controls.Add(textBox19);
-            Controls.Add(textBox20);
-            Controls.Add(textBox21);
-            Controls.Add(textBox12);
-            Controls.Add(textBox13);
-            Controls.Add(textBox14);
-            Controls.Add(textBox15);
-            Controls.Add(textBox16);
-            Controls.Add(textBox6);
-            Controls.Add(textBox7);
-            Controls.Add(textBox8);
-            Controls.Add(textBox9);
-            Controls.Add(textBox11);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
             Controls.Add(textBox10);
             MinimumSize = new Size(1085, 683);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ImitaçãoTermo";
             pnBotoes.ResumeLayout(false);
+            panel.ResumeLayout(false);
+            panel.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
         private TextBox textBox10;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox11;
-        private TextBox textBox12;
-        private TextBox textBox13;
-        private TextBox textBox14;
-        private TextBox textBox15;
-        private TextBox textBox16;
-        private TextBox textBox17;
-        private TextBox textBox18;
-        private TextBox textBox19;
-        private TextBox textBox20;
-        private TextBox textBox21;
-        private TextBox textBox22;
-        private TextBox textBox23;
-        private TextBox textBox24;
-        private TextBox textBox25;
-        private TextBox textBox26;
         private Button btnApagar;
         private Button button29;
         private Panel pnBotoes;
@@ -815,5 +803,31 @@
         private Button button52;
         private Button button53;
         private Button button54;
+        private Panel panel;
+        private TextBox textBox22;
+        private TextBox textBox23;
+        private TextBox textBox24;
+        private TextBox textBox25;
+        private TextBox textBox26;
+        private TextBox textBox17;
+        private TextBox textBox18;
+        private TextBox textBox19;
+        private TextBox textBox20;
+        private TextBox textBox21;
+        private TextBox textBox12;
+        private TextBox textBox13;
+        private TextBox textBox14;
+        private TextBox textBox15;
+        private TextBox textBox16;
+        private TextBox textBox6;
+        private TextBox textBox7;
+        private TextBox textBox8;
+        private TextBox textBox9;
+        private TextBox textBox11;
+        private TextBox textBox5;
+        private TextBox textBox4;
+        private TextBox textBox3;
+        private TextBox textBox2;
+        private TextBox textBox1;
     }
 }
